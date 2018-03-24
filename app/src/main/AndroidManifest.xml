@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.maham.classassignment">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/vintage"
+        android:label="Vintage"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScren">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".signup" />
+        <activity
+            android:name=".menus"
+            android:label="@string/title_activity_menus"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Order" />
+        <activity android:name=".Details" />
+        <activity
+            android:name=".MensWears"
+            android:label="@string/title_activity_mens_wears"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WomensWears"
+            android:label="@string/title_activity_womens_wears"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KidsWears"
+            android:label="@string/title_activity_kids_wears"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.maham.classassignment.signup"
+    android:background="#71cf9c80">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:text="Sign Up"
+        android:textSize="40sp"
+        android:textColor="#000"
+        />
+
+
+    <EditText
+        android:inputType="textPersonName"
+        android:id="@+id/editText"
+        android:layout_width="230sp"
+        android:layout_height="40sp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:hint="Name"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textColorHint="#000"/>
+
+    <EditText
+        android:inputType="textEmailAddress"
+        android:id="@+id/editText2"
+        android:layout_width="230sp"
+        android:layout_height="40sp"
+        android:layout_alignStart="@+id/editText"
+        android:layout_below="@+id/editText"
+        android:layout_marginTop="14dp"
+        android:hint="Email"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textColorHint="#000"/>
+
+    <EditText
+        android:inputType="number"
+        android:layout_width="230sp"
+        android:layout_height="40sp"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="17dp"
+        android:hint="Phone Number"
+        android:textAlignment="center"
+        android:id="@+id/editText3"
+        android:textColor="#000"
+        android:textColorHint="#000"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:text="@string/join"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:background="#000"
+        android:textColor="#FFFF"
+        android:id="@+id/join"/>
+</RelativeLayout>

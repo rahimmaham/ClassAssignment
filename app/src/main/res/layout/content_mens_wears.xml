@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.maham.classassignment.MensWears"
+    tools:showIn="@layout/app_bar_men">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:background="#71cf9c80"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="18dp"
+            android:text="Mens Collection"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="30dp" />
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="34dp"
+            android:src="@drawable/tshirtmen"
+            android:id="@+id/men1"
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView5"
+            android:layout_alignStart="@+id/textView5"
+            android:layout_marginBottom="16dp"
+            android:text="T-Shirt"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/men1"
+            android:layout_marginBottom="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_toEndOf="@+id/men1"
+            android:text="Price : Rs 999"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/man2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/men1"
+            android:layout_marginTop="38dp"
+            android:src="@drawable/shirtmen" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView6"
+            android:layout_alignStart="@+id/textView6"
+            android:layout_marginBottom="19dp"
+            android:text="Shirt (Check)"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/man2"
+            android:layout_marginBottom="32dp"
+            android:layout_marginStart="30dp"
+            android:layout_toEndOf="@+id/man2"
+            android:text="Price : Rs 1099"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:id="@+id/textView6" />
+
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

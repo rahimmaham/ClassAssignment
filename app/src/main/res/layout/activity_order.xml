@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.maham.classassignment.Order"
+    android:background="#71cf9c80"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:text="Order Details"
+        android:textSize="40sp"
+        android:textColor="#000"
+        />
+    <EditText
+        android:inputType="textPersonName"
+        android:id="@+id/editText"
+        android:layout_width="280sp"
+        android:layout_height="40sp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:hint="Name"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textColorHint="#000" />
+
+    <EditText
+        android:inputType="textPostalAddress"
+        android:id="@+id/editText1"
+        android:layout_width="280sp"
+        android:layout_height="40sp"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_below="@+id/editText3"
+        android:layout_marginTop="17dp"
+        android:hint="Address"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textColorHint="#000" />
+    <EditText
+        android:inputType="textEmailAddress"
+        android:id="@+id/editText2"
+        android:layout_width="280sp"
+        android:layout_height="40sp"
+        android:layout_alignStart="@+id/editText"
+        android:layout_below="@+id/editText"
+        android:layout_marginTop="14dp"
+        android:hint="Email"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textColorHint="#000"/>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="280sp"
+        android:layout_height="40sp"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textColorHint="#000" />
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:background="#000"
+        android:text=" Confirm Order"
+        android:textAlignment="center"
+        android:textColor="#FFFF"
+        android:textSize="20sp" />
+</RelativeLayout>

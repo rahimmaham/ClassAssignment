@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ClassAssignment</string>
+    <string name="join">Join</string>
+    <string name="title_activity_menus">menus</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_mens_wears">MensWears</string>
+    <string name="title_activity_womens_wears">WomensWears</string>
+    <string name="title_activity_kids_wears">KidsWears</string>
+</resources>
